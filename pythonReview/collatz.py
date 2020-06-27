@@ -3,7 +3,7 @@
 # 2. If the number is odd, triple it and add one.
 
 # starting integer
-n = 20
+n = int(input("Please enter a positive integer:"))
 
 # while number is not 1
 while n != 1:
@@ -12,7 +12,7 @@ while n != 1:
     # if number is even
     if n % 2 == 0:
         # divide number by 2
-        n = n / 2
+        n = n // 2
     # Otherwise (so the number is odd)
     else:
         # multiply by 3 and add 1
